@@ -1,2 +1,2 @@
 # IMS(Inventory Management System)
-ระบบการจัดการสินค้าด้วย C code
+เป็นระบบการจัดการสินค้าด้วย C code
