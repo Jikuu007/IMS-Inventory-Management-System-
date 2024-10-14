@@ -5,8 +5,8 @@ IMS หรือ Inventory Management System เป็นโปรแกรม�
 
 # List of contents
 
-[Insrallation steps](#installation-steps)
-[How to use](#how-to-use)
+- [Insrallation steps](#installation-steps)
+- [How to use](#how-to-use)
 
 ## Installation steps
 
