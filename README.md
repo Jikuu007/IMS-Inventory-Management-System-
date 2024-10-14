@@ -11,8 +11,8 @@
 
 ## Installation steps
 
-[Dowload file IMS RUN.exe](https://www.mediafire.com/file/vsgpa3dkajgp8hq/IMS_RUN.rar/file)
-
+- [Dowload file IMS RUN.rar](https://www.mediafire.com/file/vsgpa3dkajgp8hq/IMS_RUN.rar/file)
+- แตก file แล้วเปิดตัว IMS RUN.exe
 
 ## How to use
 
