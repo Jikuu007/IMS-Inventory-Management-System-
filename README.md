@@ -9,12 +9,6 @@
 4. ตรวจสอบข้อมูลสินค้า (View Item): แสดงข้อมูลสินค้าทั้งหมดหรือค้นหาสินค้าตามรหัสหรือชื่อ
 5. รายงานสินค้าคงคลัง (Inventory Report): สร้างรายงานแสดงสินค้าคงเหลือ รายการสินค้าที่ต้องสั่งซื้อเพิ่ม หรือยอดขายของสินค้า
 
-
-# List of contents
-
-- [Insrallation steps](#installation-steps)
-- [How to use](#how-to-use)
-
 ## Installation steps
 
 [Dowload file IMS RUN.exe](https://www.mediafire.com/file/t597q8kut0fccvo/IMS_RUN.exe/file)
@@ -26,8 +20,12 @@
  - ตัวโปรแกรมมีทั้งหมด 6 ตัวเลื่อก
 
 1. ADD Item : เป็นการเพิ่มสิ้นค้า
-2. View Item : เป็นการเช็คสินค้า
-3. Edit Item : เป็นการแก้ใขรายการสินค้า
-4. Delete Item : เป็นการลบสินค้า
-5. Save to file : เป็นการเซฟรายการสินค้า
-6. Exit : เป็นการออกจากโปรแกรม
+   - ID ใส่ตัวเลข
+   - name ชื่อ
+   - PQ ใส่ตัวเลข (เป็นจำนวนสินค้า)
+   - price ราคา
+3. View Item : เป็นการเช็คสินค้า
+4. Edit Item : เป็นการแก้ใขรายการสินค้า
+5. Delete Item : เป็นการลบสินค้า
+6. Save to file : เป็นการเซฟรายการสินค้า
+7. Exit : เป็นการออกจากโปรแกรม
