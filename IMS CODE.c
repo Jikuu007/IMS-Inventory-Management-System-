@@ -8,7 +8,35 @@ struct Item
 	int PQ; //Product quantity จำนวนสินค้า
 	float price;
 };
+int main(){
+	struct Item item[100]; //รับ item ได้ 100 
+	int numItem = 0;
+	int choice;
+	loadfile(item,&numItem);
+	do{
+		printf("\nInventory Management System\n");
+		printf("1.ADD Item\n");
+		printf("2.View Item\n");
+		printf("3.Edit Item\n");
+		printf("4.Delete Item\n");
+		printf("5.Save to file\n");
+		printf("6.Exit\n");
+		printf("Enter your choice:");
+		scanf("%d",&choice);
 
+		switch(choice){
+			case 1:addItem(item, &numItem); break;
+			case 2:viewItem(item, numItem); break;
+			case 3:editItem(item, numItem); break;
+			case 4:deleteItem(item, &numItem); break;
+			case 5:saveItemtoFile(item, numItem); break;
+			case 6: printf("Exiting...\n");
+			default: printf("The system is closed.\n");
+		}
+	}while(choice !=6);
+
+	return 0;
+}
 void addItem(struct Item item[],int *numItem){
 	printf("Enter Item ID:");
 	scanf("%d",&item[*numItem].ID);
@@ -92,33 +120,4 @@ void loadfile(struct Item item[], int *numItem){
 	}
 	fclose(file);
 	printf("Data loaded from file DONE!!.\n");
-}
-int main(){
-	struct Item item[100]; //รับ item ได้ 100 
-	int numItem = 0;
-	int choice;
-	loadfile(item,&numItem);
-	do{
-		printf("\nInventory Management System\n");
-		printf("1.ADD Item\n");
-		printf("2.View Item\n");
-		printf("3.Edit Item\n");
-		printf("4.Delete Item\n");
-		printf("5.Save to file\n");
-		printf("6.Exit\n");
-		printf("Enter your choice:");
-		scanf("%d",&choice);
-
-		switch(choice){
-			case 1:addItem(item, &numItem); break;
-			case 2:viewItem(item, numItem); break;
-			case 3:editItem(item, numItem); break;
-			case 4:deleteItem(item, &numItem); break;
-			case 5:saveItemtoFile(item, numItem); break;
-			case 6: printf("Exiting...\n");
-			default: printf("The system is closed.\n");
-		}
-	}while(choice !=6);
-
-	return 0;
 }
